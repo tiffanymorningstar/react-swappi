@@ -19,10 +19,21 @@ const fetchStarshipDetails = async () => {
   return ( 
     <>
    <div className="starship-details-container">
+      {getStarshipDetails.name?
+      <>
       <h2>Name:{starshipPage.name}</h2>
       <h2>Model:{starshipPage.model}</h2>
-   </div>     
+   <Link to='/'>  
+   <p>Return</p>
+   </Link>
    </>
+  :
+  <>
+  <p>Loading Starship Details...</p>
+  </>
+}
+</div>
+</>
    );
 }
  

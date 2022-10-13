@@ -37,6 +37,11 @@
   }
 }
 
-.starship-list-container {
-  border: 1px solid black;
+button {
+  background-color: #033515;
+  color: white;
+  padding: 30px;
+  height: 100px;
+  width: 300px;
+  
 }
