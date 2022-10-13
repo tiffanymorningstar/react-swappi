@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.starship-list-container {
+  border: 1px solid black;
+}
