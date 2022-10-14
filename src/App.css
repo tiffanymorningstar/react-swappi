@@ -38,10 +38,20 @@
 }
 
 button {
+  display: flex;
   background-color: #033515;
   color: white;
   padding: 30px;
   height: 100px;
   width: 300px;
-  
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between
+}
+
+.Nav-Bar {
+  text-align: center;
+  background-color: #000703;
+  color: white;
 }

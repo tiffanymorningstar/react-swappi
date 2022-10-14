@@ -19,7 +19,6 @@ const StarshipList = () => {
     <>
       <div>
         <div >
-          <h3>Starship List</h3>
       {starships.map(starship =>
       <div key={starship.name}> 
         <Link 
