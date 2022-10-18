@@ -9,7 +9,6 @@ const StarshipList = () => {
     const fetchStarshipData = async () => {
       const starshipData = await getAllStarships()
       setStarships(starshipData.results)
-      console.log(starships)
     }
     fetchStarshipData()
   }, [])
@@ -31,7 +30,7 @@ const StarshipList = () => {
           </button>
          </Link>
          </div>
-        )}
+      )}
         </div>
       </div>
     </>
